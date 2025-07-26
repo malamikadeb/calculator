@@ -106,6 +106,13 @@ equalbtn.addEventListener("click", () => {
     }
 });
 
+percentbtn.addEventListener("click", () => {
+    let currentInput = display.value || '';
+    if (currentInput) {
+        updateDisplay(" % ", true);
+    }
+});
+
 
 
 
